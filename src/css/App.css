@@ -1,0 +1,27 @@
+
+.btn{
+  margin:3px;
+}
+.recipe-edit{
+  width: 45%;
+  margin: 50px;
+}
+.recipe-list{
+  margin: 50px;
+  
+}
+.add-ingredient{
+  margin-top:20px;
+}
+.row.close{
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px;
+}
+.btn-primary{
+  margin-top:40px;
+  margin-left:25%;
+}
+.row .right{
+  margin-bottom: 10px;
+}
