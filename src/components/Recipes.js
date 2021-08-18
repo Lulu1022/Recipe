@@ -13,7 +13,7 @@ export default function Recipes(props) {
         ingredients,
     }=props
     return (
-      <div>
+      <div className="col">
           <div className="row">
             <div className="col"><h3>{name}</h3></div>
             
@@ -32,11 +32,11 @@ export default function Recipes(props) {
           </div>
           <div>
               <span>Instructions:</span>
-              <div style={{whiteSpace:"pre-wrap"}}><span>{instructions}</span></div>
+              <div><span style={{whiteSpace:"pre-wrap"}}>{instructions}</span></div>
           </div>
           <div>
               <span>Ingredients:</span>
-              <span><IngredientList ingredients={ingredients}/></span>
+              <div><span><IngredientList ingredients={ingredients}/></span></div>
           </div>
           
       </div>

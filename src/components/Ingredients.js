@@ -7,10 +7,10 @@ export default function Ingredients(props) {
         amount
     }=props
     return (
-    <>
-      <span>{name}</span>
-      <span>{amount}</span>
-    </>
+    <div className="row">
+      <div className="col col-lg-2">{name}</div>
+      <div className="col col-lg-2">{amount}</div>
+    </div>
 
     )
 }
