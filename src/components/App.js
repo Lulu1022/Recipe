@@ -99,7 +99,7 @@ function App() {
             name:'Matcha green tea',
             servings:5,
             cookTime:'0:45',
-            instructions:' 1. Sift 1-2 tsp matcha into a cup using a small sifter.\n2. Add 2oz hot water. For best results use water just under a boil.\n3. Whisk vigorously in a zig zag motion until the tea is frothy.',
+            instructions:'1. Sift 1-2 tsp matcha into a cup using a small sifter.\n2. Add 2oz hot water. For best results use water just under a boil.\n3. Whisk vigorously in a zig zag motion until the tea is frothy.',
             ingredients:[
             {
             id:1,
