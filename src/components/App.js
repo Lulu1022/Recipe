@@ -24,7 +24,7 @@ function App() {
     }, [recipes])
 
     const recipeContextValue = {
-        handleRecipeAdd, //handleRecipeAdd = handleRecipeAdd
+        handleRecipeAdd, 
         deleteRecipe,
         handleRecipeSelect,
         handleRecipeChange
