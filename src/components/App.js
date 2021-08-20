@@ -78,9 +78,9 @@ function App() {
         {
             id:1,
             name:'Bubble tea',
-            serevings:3,
+            servings:3,
             cookTime:'1:45',
-            instructions:'1. Make the boba 2. Bring 8 cups water to a boil over high heat 3. Add the pearls',
+            instructions:'1. Make the boba\n2. Bring 8 cups water to a boil over high heat\n3. Add the pearls',
             ingredients:[
                 {
                 id:1,
@@ -96,10 +96,10 @@ function App() {
         },
         {
             id:2,
-            name:'Matcha green teaa',
-            serevings:5,
+            name:'Matcha green tea',
+            servings:5,
             cookTime:'0:45',
-            instructions:'1. Sift 1-2 tsp matcha into a cup using a small sifter. 2. Add 2oz hot water. For best results use water just under a boil. 3. Whisk vigorously in a zig zag motion until the tea is frothy.',
+            instructions:' 1. Sift 1-2 tsp matcha into a cup using a small sifter.\n2. Add 2oz hot water. For best results use water just under a boil.\n3. Whisk vigorously in a zig zag motion until the tea is frothy.',
             ingredients:[
             {
             id:1,

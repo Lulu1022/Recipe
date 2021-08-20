@@ -12,11 +12,11 @@ export default function Recipes(props) {
         instructions,
         ingredients,
     }=props
+
     return (
       <div className="col">
           <div className="row">
-            <div className="col"><h3>{name}</h3></div>
-            
+            <div className="col"><h3>{name}</h3></div>        
             <div className="col">
                 <button className="btn btn-success" onClick={()=>handleRecipeSelect(id)}>Edit</button>
                 <button className="btn btn-warning" onClick={()=>deleteRecipe(id)}>Delete</button>
@@ -36,7 +36,7 @@ export default function Recipes(props) {
           </div>
           <div>
               <span>Ingredients:</span>
-              <div><span><IngredientList ingredients={ingredients}/></span></div>
+              <div><span style={{whiteSpace:"pre-wrap"}}><IngredientList ingredients={ingredients}/></span></div>
           </div>
           
       </div>
