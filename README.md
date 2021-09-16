@@ -1,6 +1,4 @@
-#Demo: [click here!](https://chatting-room-test.herokuapp.com/)
-)
-)
+#Demo: [click here!](https://lulu1022.github.io/Recipe/)
 
 # Getting Started with Create React App
 
