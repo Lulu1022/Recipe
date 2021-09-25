@@ -75,25 +75,25 @@ function App() {
 }
 
     const sampleRecipes=[
-        {
-            id:1,
-            name:'Bubble tea',
-            servings:3,
-            cookTime:'1:45',
-            instructions:'1. Make the boba\n2. Bring 8 cups water to a boil over high heat\n3. Add the pearls',
-            ingredients:[
-                {
-                id:1,
-                name:'Black tea',
-                amount: '8 bags'
-                },
-                {
-                id:2,
-                name:'Tapioca pearls',
-                amount: '3/4 cup'
-                }
-            ]
-        },
+        // {
+        //     id:1,
+        //     name:'Bubble tea',
+        //     servings:3,
+        //     cookTime:'1:45',
+        //     instructions:'1. Make the boba\n2. Bring 8 cups water to a boil over high heat\n3. Add the pearls',
+        //     ingredients:[
+        //         {
+        //         id:1,
+        //         name:'Black tea',
+        //         amount: '8 bags'
+        //         },
+        //         {
+        //         id:2,
+        //         name:'Tapioca pearls',
+        //         amount: '3/4 cup'
+        //         }
+        //     ]
+        // }
         {
             id:2,
             name:'Matcha green tea',
